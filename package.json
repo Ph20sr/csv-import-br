@@ -1,0 +1,12 @@
+{
+  "name": "csv-import-br",
+  "version": "1.0.0",
+  "description": "Importação de planilhas CSV do jeito que o Excel brasileiro gera: ; e Windows-1252, datas dd/mm/aaaa, R$ 1.234,56, CPF/CNPJ, colunas com nomes alternativos e erros linha a linha. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["csv", "import", "excel", "planilha", "crm", "windows-1252", "brasil", "validation"],
+  "license": "MIT"
+}
